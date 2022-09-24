@@ -1,0 +1,53 @@
+body {
+  padding: 16px;
+  font-family: 'Noto Sans', sans-serif;
+  color: rgb(39, 39, 39);
+}
+
+.profilove-foto {
+  position: relative;
+  left: 15%;
+  width: 70%;
+  border-radius: 50%;
+}
+
+.navigace > div {
+  padding: 10px 15px;
+}
+
+.navigace, .rozbaleni-kontakt-ikona, .ikonky-kontakt {
+  display: none;
+}
+
+@media (min-width: 786px) {
+  .profilove-foto {
+    left: 0%;
+    width: 300px;
+  }
+  
+  .navigace {
+    display: flex;
+    font-weight: 500;
+  }
+
+  .rozbaleni-kontakt-ikona, .ikonky-kontakt {
+    display: block;
+    position: fixed;
+  }
+
+  .rozbaleni-kontakt-ikona {
+    top: calc(50% - 21px);
+    right: 90px;
+    width: 24px;
+  }
+
+  .ikonky-kontakt {
+    top: calc((100% - 4 * 69px) / 2);
+    right: 16px;
+  }
+  
+  .logo-kontakt {
+    width: 48px;
+    padding: 8px;
+  }
+}
