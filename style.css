@@ -1,20 +1,22 @@
 body {
-  padding: 4px 16px;
+  padding: 0 16px;
+  margin-top: 0;
   font-family: 'Noto Sans', sans-serif;
   color: rgb(39, 39, 39);
 }
 
 .pozadi-uvod {
-  width: 100%;
-  position: absolute;
+  width: calc(100% + 48px);
+  position: relative;
   z-index: -1;
   margin-left: -24px;
 }
 
 .profilove-foto {
-  position: relative;
-  left: 15%;
-  width: 70%;
+  position: absolute;
+  top: 0;
+  left: calc(20% - 16px);
+  width: 60%;
   border-radius: 50%;
   padding: 16px;
 }
@@ -23,7 +25,7 @@ body {
   display: grid;
   grid-template-columns: auto;
   position: relative;
-  left: calc((30% - 24px) / 2);
+  left: 15%;
 }
 
 .galerie-foto {
@@ -43,19 +45,53 @@ body {
   display: none;
 }
 
+.menu-img {
+  position: absolute;
+  top: 12px;
+  right: 2%;
+  width: 8%;
+  max-width: 42px;
+}
+
+.paticka {
+  margin-left: -24px;
+  padding: 2px;
+  width: calc(100% + 48px);
+  background-color: darkcyan;
+  text-align: center;
+}
+
 @media (min-width: 576px) {
-  
+  .profilove-foto {
+    width: 40%;
+  }
 }
 
 @media (min-width: 786px) {
   .profilove-foto {
+    top: 0;
     left: 0%;
     width: 300px;
+  }
+
+  .fotogalerie-grid {
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+    left: 13%;
+    width: 74%;
+  }
+
+  .galerie-foto {
+    width: auto;
   }
   
   .navigace {
     display: flex;
     font-weight: 500;
+  }
+
+  .menu-img {
+    display: none;
   }
 
   .rozbaleni-kontakt-ikona, .ikonky-kontakt {
@@ -79,9 +115,15 @@ body {
     padding: 8px;
   }
 
-  .navigace > div {
-    padding: 18px;
-    padding-top: 8px;
+
+  .navigace > a {
+    text-decoration: none;
+    padding: 16px;
+  }
+
+  .navigace > a:hover {
+    background-color: rgb(24, 162, 112);
+    color: whitesmoke;
   }
 }
 
@@ -91,9 +133,5 @@ body {
     gap: 32px;
     left: 8%;
     width: 84%;
-  }
-
-  .galerie-foto {
-    width: auto;
   }
 }
