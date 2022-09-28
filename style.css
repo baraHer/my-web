@@ -63,17 +63,27 @@ body {
 
 @media (min-width: 576px) {
   .profilove-foto {
-    width: 40%;
+    position: relative;
+    width: 240px;
+    top: -370px;
+    left: -16px;
+  }
+
+  h1 {
+    position: relative;
+    top: -360px;
+    color: whitesmoke;
+    font-family: 'Codystar', cursive;
+    font-size: 2.5rem;
+    margin: 0;
+  }
+
+  #o-mne {
+    margin-top: -290px;
   }
 }
 
 @media (min-width: 786px) {
-  .profilove-foto {
-    top: 0;
-    left: 0%;
-    width: 300px;
-  }
-
   .fotogalerie-grid {
     grid-template-columns: 1fr 1fr;
     gap: 24px;
