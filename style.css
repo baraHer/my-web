@@ -6,7 +6,7 @@ body {
 }
 
 .pozadi-uvod {
-  width: calc(100% + 48px);
+  width: calc(100% + 96px);
   position: relative;
   z-index: -1;
   margin-left: -24px;
@@ -57,24 +57,24 @@ body {
   margin-left: -24px;
   padding: 2px;
   width: calc(100% + 48px);
-  background-color: darkcyan;
+  background-color: rgb(24, 162, 112);
   text-align: center;
 }
 
 @media (min-width: 576px) {
   .profilove-foto {
     position: relative;
-    width: 240px;
-    top: -370px;
+    width: 220px;
+    top: -320px;
     left: -16px;
   }
 
   h1 {
     position: relative;
-    top: -360px;
+    top: -320px;
     color: whitesmoke;
     font-family: 'Codystar', cursive;
-    font-size: 2.5rem;
+    font-size: 2.2rem;
     margin: 0;
   }
 
@@ -84,6 +84,15 @@ body {
 }
 
 @media (min-width: 786px) {
+  h1 {
+    font-size: 2.6rem;
+    top: -330px;
+  }
+
+  .profilove-foto {
+    top: -330px;
+  }
+
   .fotogalerie-grid {
     grid-template-columns: 1fr 1fr;
     gap: 24px;
@@ -109,7 +118,7 @@ body {
     top: 54px;
     right: 0;
     display: block;
-    width: 240px;
+    width: 200px;
     height: 100%;
     background-color: rgba(255, 255, 255, 0.675);
   }
@@ -128,6 +137,18 @@ body {
   .navigace > a:hover {
     background-color: rgb(24, 162, 112);
     color: whitesmoke;
+  }
+}
+
+@media (min-width: 950px) {
+  h1 {
+    font-size: 3.2rem;
+    top: -400px;
+  }
+
+  .profilove-foto {
+    width: 280px;
+    top: -410px;
   }
 }
 
