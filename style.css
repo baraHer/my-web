@@ -6,13 +6,9 @@ body {
 
 .pozadi-uvod {
   width: 100%;
-}
-
-.uvod {
-  background-image: url("foto/pozadi.png");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+  position: absolute;
+  z-index: -1;
+  margin-left: -24px;
 }
 
 .profilove-foto {
@@ -43,12 +39,12 @@ body {
   width: 20px;
 }
 
-.navigace > div {
-  padding: 15px;
-}
-
 .navigace, .rozbaleni-kontakt-ikona, .ikonky-kontakt {
   display: none;
+}
+
+@media (min-width: 576px) {
+  
 }
 
 @media (min-width: 786px) {
@@ -81,5 +77,23 @@ body {
   .logo-kontakt {
     width: 48px;
     padding: 8px;
+  }
+
+  .navigace > div {
+    padding: 18px;
+    padding-top: 8px;
+  }
+}
+
+@media (min-width: 1150px) {
+  .fotogalerie-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 32px;
+    left: 8%;
+    width: 84%;
+  }
+
+  .galerie-foto {
+    width: auto;
   }
 }
