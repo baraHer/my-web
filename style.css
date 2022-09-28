@@ -79,7 +79,7 @@ body {
   }
 
   #o-mne {
-    margin-top: -290px;
+    margin-top: -280px;
   }
 }
 
@@ -107,6 +107,11 @@ body {
   .navigace {
     display: flex;
     font-weight: 500;
+  }
+
+  .nav-profilovka {
+    height: 46px;
+    padding: 6px 16px 2px 0;
   }
 
   .menu-img {
@@ -149,6 +154,10 @@ body {
   .profilove-foto {
     width: 280px;
     top: -410px;
+  }
+
+  #o-mne {
+    margin-top: -340px;
   }
 }
 
