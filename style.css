@@ -41,7 +41,7 @@ body {
   width: 20px;
 }
 
-.navigace, .rozbaleni-kontakt-ikona, .ikonky-kontakt {
+.navigace, .ikonky-kontakt {
   display: none;
 }
 
@@ -104,20 +104,14 @@ body {
     display: none;
   }
 
-  .rozbaleni-kontakt-ikona, .ikonky-kontakt {
-    display: block;
-    position: fixed;
-  }
-
-  .rozbaleni-kontakt-ikona {
-    top: calc(50% - 21px);
-    right: 90px;
-    width: 24px;
-  }
-
   .ikonky-kontakt {
-    top: calc((100% - 4 * 69px) / 2);
-    right: 16px;
+    position: absolute;
+    top: 54px;
+    right: 0;
+    display: block;
+    width: 240px;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.675);
   }
   
   .logo-kontakt {
