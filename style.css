@@ -4,11 +4,43 @@ body {
   color: rgb(39, 39, 39);
 }
 
+.pozadi-uvod {
+  width: 100%;
+}
+
+.uvod {
+  background-image: url("foto/pozadi.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
 .profilove-foto {
   position: relative;
   left: 15%;
   width: 70%;
   border-radius: 50%;
+  padding: 16px;
+}
+
+.fotogalerie-grid {
+  display: grid;
+  grid-template-columns: auto;
+  position: relative;
+  left: calc((30% - 24px) / 2);
+}
+
+.galerie-foto {
+  width: 70%;
+}
+
+.foto {
+  width: 100%;
+}
+
+.psi-odkaz-img {
+  padding-right: 4px;
+  width: 20px;
 }
 
 .navigace > div {
