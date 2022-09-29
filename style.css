@@ -122,11 +122,24 @@ body {
     height: 100%;
     background-color: rgba(255, 255, 255, 0.675);
   }
+
+  .ikonky-kontakt > a > div {
+    font-size: 13px;
+    font-weight: 500;
+  }
+
+  .ikonky-kontakt > a > div:hover {
+    background-color: rgb(255, 255, 255);
+  }
   
   .logo-kontakt {
     width: 32px;
     padding: 8px;
     margin-left:8px;
+  }
+
+  .kontakt-box {
+    display: flex;
   }
 
   .kontakt-nadpis {
