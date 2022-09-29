@@ -72,12 +72,16 @@ a {
 
 .paticka {
   margin: 24px 0 0 -24px;
-  padding: 8px;
-  width: calc(100% + 48px);
+  padding: 10px;
+  width: calc(100% + 28px);
   background-color: rgb(9, 57, 40);
   color: whitesmoke;
   text-align: center;
   font-size: 14px;
+}
+
+.paticka-kontakt {
+  display: none;
 }
 
 @media (min-width: 576px) {
@@ -205,6 +209,18 @@ a {
 
   .kontakt-sekce {
     display: none;
+  }
+
+  .paticka-kontakt {
+    display: block;
+    position: relative;
+    right: calc(-100% + 124px);
+    top: -39px;
+  }
+
+  .paticka-kontakt > img {
+    width: 24px;
+    padding: 7.5px 2px;
   }
 }
 

@@ -12,3 +12,4 @@ animace
 změnit fotky
 zkontrolovat Pages
 zkontolovat Pages z mobilu
+pořešit doménu
