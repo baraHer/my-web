@@ -140,6 +140,18 @@ body {
 
   .kontakt-box {
     display: flex;
+    margin-bottom: 8px;
+  }
+
+  .kontakt-box > div {
+    display: flex;
+    align-items: center;
+  }
+
+  .kontakt-box > div, .kontakt-box > div:visited {
+    color: black;
+    text-decoration: underline;
+    text-decoration-color: black;
   }
 
   .kontakt-nadpis {
