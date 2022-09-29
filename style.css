@@ -106,6 +106,10 @@ body {
     font-weight: 500;
   }
 
+  .navigace > a, .navigace > a:visited {    
+    color: rgb(39, 39, 39);
+  }
+
   .nav-profilovka {
     height: 46px;
     padding: 6px 16px 2px 0;
@@ -138,7 +142,6 @@ body {
     grid-row: 1/2;
     display: block;
     background-color: rgba(255, 255, 255, 0.675);
-    padding-right: 16px;
   }
 
   .ikonky-kontakt > a > div {
