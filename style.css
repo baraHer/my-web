@@ -15,7 +15,7 @@ body {
 .profilove-foto {
   position: absolute;
   top: 0;
-  left: calc(20% - 16px);
+  left: calc(20% - 18px);
   width: 60%;
   border-radius: 50%;
   padding: 16px;
@@ -65,13 +65,13 @@ body {
   .profilove-foto {
     position: relative;
     width: 220px;
-    top: -320px;
+    top: -340px;
     left: -16px;
   }
 
   h1 {
     position: relative;
-    top: -320px;
+    top: -340px;
     color: whitesmoke;
     font-family: 'Codystar', cursive;
     font-size: 2.2rem;
@@ -86,11 +86,6 @@ body {
 @media (min-width: 786px) {
   h1 {
     font-size: 2.6rem;
-    top: -330px;
-  }
-
-  .profilove-foto {
-    top: -330px;
   }
 
   .fotogalerie-grid {
@@ -147,17 +142,17 @@ body {
 
 @media (min-width: 950px) {
   h1 {
-    font-size: 3.2rem;
-    top: -400px;
+    font-size: 3rem;
+    top: -390px;
   }
 
   .profilove-foto {
-    width: 280px;
+    width: 240px;
     top: -410px;
   }
 
   #o-mne {
-    margin-top: -340px;
+    margin-top: -320px;
   }
 }
 
