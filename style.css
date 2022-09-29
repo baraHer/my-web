@@ -53,8 +53,25 @@ body {
   max-width: 42px;
 }
 
+a {
+  color: black;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+.kontakt-sekce > a {
+  padding: 4px 0;
+  display: flex;
+  width: fit-content;
+}
+
+.kontakt-sekce > a > div > img {
+  width: 22px;
+  margin-right: 8px;
+}
+
 .paticka {
-  margin-left: -24px;
+  margin: 24px 0 0 -24px;
   padding: 8px;
   width: calc(100% + 48px);
   background-color: rgb(9, 57, 40);
@@ -169,12 +186,6 @@ body {
     align-items: center;
   }
 
-  .kontakt-box > div, .kontakt-box > div:visited {
-    color: black;
-    text-decoration: underline;
-    text-decoration-color: black;
-  }
-
   .kontakt-nadpis {
     padding: 16px;
     font-size: 20px;
@@ -190,6 +201,10 @@ body {
   .navigace > a:hover {
     background-color: rgb(24, 162, 112);
     color: whitesmoke;
+  }
+
+  .kontakt-sekce {
+    display: none;
   }
 }
 
