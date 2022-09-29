@@ -106,7 +106,7 @@ body {
     font-weight: 500;
   }
 
-  .navigace > a, .navigace > a:visited {    
+  .navigace, .navigace:visited {
     color: rgb(39, 39, 39);
   }
 
