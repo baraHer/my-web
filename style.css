@@ -222,9 +222,14 @@ footer {
     top: -39px;
   }
 
-  .paticka-kontakt > img {
+  .paticka-kontakt > a > img {
     width: 24px;
     padding: 7.5px 2px;
+    opacity: 0.6;
+  }
+
+  .paticka-kontakt > a > img:hover {
+    opacity: 1;
   }
 }
 

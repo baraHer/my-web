@@ -6,7 +6,6 @@ hamburger menu
 kontakt box nad 1150px
 obsah
 carousel
-footer
 link na web chs
 animace
 změnit fotky
