@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49,10 +49,11 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
   <path
      fill-rule="evenodd"
      d="m 3.7213825,0.04852415 a 0.49978502,0.46143026 0 0 1 0.2229041,0.6183165 L 1.0585279,5.9982059 3.9452862,11.328649 A 0.49978502,0.46143026 0 1 1 3.0516706,11.74209 L 0.05296044,6.2049267 a 0.49978502,0.46143026 0 0 1 0,-0.4134415 L 3.0516706,0.25432205 a 0.49978502,0.46143026 0 0 1 0.6697119,-0.2057979 z"
      id="path2"
-     style="stroke-width:0.96045" />
+     style="stroke-width:0.96045;fill:#ffffff" />
 </svg>
