@@ -70,6 +70,51 @@ a {
   margin-right: 8px;
 }
 
+button {
+  border: 0;
+  padding: 0;
+  background-color: rgba(255, 255, 255, 0.361);
+}
+
+.carousel-stranka {
+  position: fixed;
+  top: 0;
+  left: 0;
+  margin-left: -24px;
+  width: calc(100% + 48px);
+  height: 100%;
+  display: grid;
+  /* display: none; */
+  grid-template-columns: calc(20% + 12px) 15% 30% 10% 5% calc(20% + 12px);
+  grid-template-rows: 1fr auto auto 1fr;
+  background-color: rgba(0, 0, 0, 0.709);
+}
+
+.carousel-foto {
+  width: auto;
+  grid-row: 2/4;
+  grid-column: 2/6;
+}
+
+.carousel-img {
+  width: 100%;
+}
+
+.predchozi {
+  grid-row: 2/4;
+  grid-column: 2/3;
+}
+
+.dalsi {
+  grid-row: 2/4;
+  grid-column: 4/6;
+}
+
+.zavrit {
+  grid-row: 2/3;
+  grid-column: 5/6;
+}
+
 footer {
   height: 39px;
 }
