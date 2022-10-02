@@ -111,6 +111,13 @@ button {
   width: 7%;
 }
 
+.zavrit > .carousel-button {
+  width: 40%;
+  position: relative;
+  top: 40%;
+  left: 8%;
+}
+
 .dalsi > .carousel-button {
   position: relative;
   left: 20%;
