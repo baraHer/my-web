@@ -1,5 +1,7 @@
 const carousel = document.querySelector(".carousel-stranka");
 const carouselPozadi = document.querySelector(".carousel-pozadi");
+const foto = document.querySelectorAll(".foto")
+
 const hamburgerMenu = document.querySelector(".hamburger-menu");
 const hamburgerMenuButton = document.querySelector(".menu-img");
 
@@ -20,6 +22,10 @@ const openHamburgerMenu = () => {
 }
 
 carouselPozadi.addEventListener("click", closeCarousel);
+let pocetFotek = foto.length;
+for (let i = 0; i <= pocetFotek; i++) {
+  foto[i].addEventListener("click", openCarousel)
+}
 
 hamburgerMenuButton.addEventListener("click", openHamburgerMenu);
 hamburgerMenu.addEventListener("click", closeHamburgerMenu);
