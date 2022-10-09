@@ -161,9 +161,17 @@ button {
   grid-column: 2/3;
 }
 
+.predchozi:hover {
+  background-image: linear-gradient(to right, rgba(255, 255, 255, 0.605), rgba(255, 255, 255, 0.268), rgba(255, 255, 255, 0));
+}
+
 .dalsi {
   grid-row: 2/4;
   grid-column: 4/6;
+}
+
+.dalsi:hover {
+  background-image: linear-gradient(to left, rgba(255, 255, 255, 0.605), rgba(255, 255, 255, 0.268), rgba(255, 255, 255, 0));
 }
 
 .zavrit {
