@@ -24,7 +24,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -49,9 +49,10 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     inkscape:current-layer="svg4" />
+     inkscape:current-layer="svg4"
+     inkscape:document-rotation="0" />
   <path
-     d="M 0.38891644,1.06735 A 0.47987291,0.47985809 0 1 1 1.0675592,0.38872829 L 6.0001803,5.3221554 10.932801,0.38872829 A 0.47987311,0.47985829 0 0 1 11.611444,1.06735 L 6.6778645,5.9998187 11.611444,10.932287 a 0.47987335,0.47985853 0 0 1 -0.678643,0.678622 L 6.0001803,6.6774821 1.0675592,11.610909 A 0.47987314,0.47985832 0 0 1 0.38891644,10.932287 L 5.322496,5.9998187 Z"
+     d="M 0.48083683,1.148136 A 0.47201028,0.47203373 0 1 1 1.1483601,0.48057962 L 6.0001611,5.3335644 10.851962,0.48057962 A 0.47201048,0.47203393 0 0 1 11.519485,1.148136 L 6.6667416,6.000178 11.519485,10.85222 a 0.47201071,0.47203417 0 0 1 -0.667523,0.667556 L 6.0001611,6.6667917 1.1483601,11.519776 A 0.47201051,0.47203396 0 0 1 0.48083683,10.85222 L 5.3335806,6.000178 Z"
      id="path2"
-     style="fill:#000000;stroke:#000000;stroke-width:0.47926;stroke-miterlimit:4;stroke-dasharray:none" />
+     style="fill:#ffffff;stroke:#000000;stroke-width:0.667902;stroke-miterlimit:4;stroke-dasharray:none" />
 </svg>
